@@ -23,7 +23,7 @@ Remember to replace your_server_ip with the actual IP address of your server.
 # Ansible Playbook for Jenkins Installation:
 
 
-#Explanation:
+# Explanation:
 1. Updates package lists: Ensures the latest package information.
 2. Installs Java: Installs OpenJDK 17.
 3. Adds Jenkins repository: Imports the GPG key and adds the Jenkins repository.
@@ -32,9 +32,9 @@ Remember to replace your_server_ip with the actual IP address of your server.
 
 # Additional Considerations:
 
-#Firewall: 
+# Firewall: 
 Open port 8080 (default Jenkins port) in your firewall if required.
-#Security: 
+# Security: 
 Consider using a more secure port and implementing authentication mechanisms.
 # Configuration: 
 For advanced configuration, you can use the lineinfile module to modify Jenkins configuration files.
